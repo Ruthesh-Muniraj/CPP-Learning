@@ -4,10 +4,10 @@ enum GENDER
 {
     male,
     female
-};      // <---- Check other way
+}; // <---- Check other way
 int main()
 {
-    GENDER gender = male;       // <----
+    GENDER gender = male; // <----
     switch (gender)
     {
     case male:
@@ -18,7 +18,6 @@ int main()
         break;
     }
 }
-
 
 /*
 //It works either way
